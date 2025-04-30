@@ -8,107 +8,80 @@ Scenario-Based Report Development Utilizing Diverse Prompting Techniques
 ### Algorithm:  
 The goal of this experiment is to design and develop an AI-powered chatbot that can handle customer inquiries, provide support, and improve customer experience in a retail environment. Create prompts using various AI prompting techniques to guide your experiment, data collection, analysis, and report creation
 
-## 1. Scenario Design & Data Collection
- 1. Technique: Role Prompting
-Prompt Example:
+### Prompts:
+### 1. Straightforward Prompts:
+These are simple, direct queries that help the chatbot handle common customer requests efficiently.
 
-You are a retail customer experiencing difficulty tracking your order. Ask the chatbot for help in a polite but urgent tone.
+Scenario: A customer asks for product troubleshooting or order status.
 
-Purpose: Simulate varied customer emotions and tones for chatbot training data.
+Example Prompts and Responses:
 
- 2. Technique: Few-Shot Prompting
-Prompt Example:
+Customer Query 1: "What do I do if my laptop isn’t turning on?"
 
-Customer: “Where’s my order?”
-Bot: “Let me check that for you. Can you share your order ID?”
-Customer: “Here’s my ID: 123456”
-Bot: “Thanks! Your order is out for delivery and should arrive by 7 PM today.”
+Chatbot Response:
 
-Purpose: Generate synthetic conversations for training and evaluation datasets.
+"First, make sure your laptop is plugged in and the power button is working. If it's still not turning on, try holding the power button for 10 seconds to reset it. Let me know if that works."
 
-## 2. Model Training & Experimentation
- 1. Technique: Chain-of-Thought Prompting
-Prompt Example:
+Customer Query 2: "Where is my order?"
 
-A customer wants to return a damaged item. First, ask for the order ID. Then, verify the return policy. Finally, offer return instructions.
+Chatbot Response:
 
-Purpose: Train the model to follow logical support flows.
+"Could you please provide your order number so I can check the status for you?"
 
- 2. Technique: Instruction Prompting
-Prompt Example:
+### 2. Tabular Format Prompting:
+This technique is helpful when the chatbot needs to present structured data or comparisons in an easy-to-read format, like troubleshooting steps, order status, or product comparisons.
 
-Given a user query, classify it as one of the following: Order Status, Return Request, Product Inquiry, Store Info, Complaint.
+Scenario: A customer asks about product features or compares multiple models.
 
-Purpose: Enhance intent classification using direct task instructions.
+Example Prompts and Responses:
 
-## 3. Data Analysis & Evaluation
- 1. Technique: Zero-Shot Prompting
-Prompt Example:
+Customer Query: "Can you show me a comparison of the two models?"
 
-Classify the customer query: “Can you tell me if this product comes in red?”
+Chatbot Response:
 
-Purpose: Test the chatbot’s generalization capabilities on unseen query types.
+"Sure, here's a table comparing the two models for you:"
+| **Feature**      | **Model A**        | **Model B**        |
+|------------------|--------------------|--------------------|
+| **Screen Size**  | 15.6 inches        | 14 inches          |
+| **Processor**    | Intel i7           | Intel i5           |
+| **Battery Life** | 8 hours            | 6 hours            |
+| **Weight**       | 2.5 kg             | 2.0 kg             |
 
- 2. Technique: Reflexive Prompting (Self-Critique)
-Prompt Example:
+Chatbot Response:
 
-Here is the chatbot’s response: “Sorry, I can’t help you.”
-Evaluate whether this reply is helpful, and suggest a better alternative.
+"Here's a table with steps to troubleshoot your issue:"
+| **Step** | **Action**                                               |
+|----------|----------------------------------------------------------|
+| 1        | Ensure the device is plugged in and the power button works. |
+| 2        | Check for any visible damage to cables or power ports.     |
+| 3        | Hold the power button for 10 seconds to reset the device.  |
+| 4        | If the issue persists, contact customer support.           |
 
-Purpose: Evaluate model performance and improve response relevance.
+### 3. Preceding Question Prompting:
+This technique involves using context from previous customer queries to ensure that the chatbot gives relevant and continuous support.
 
-## 4. Report Creation
- 1. Technique: Persona Prompting
-Prompt Example:
+Scenario: The chatbot needs to maintain context across different queries or follow-up questions.
 
-You are an AI researcher presenting findings to retail business stakeholders. Summarize the performance of the chatbot in layman’s terms.
+Example Prompts and Responses:
 
-Purpose: Make the report accessible to non-technical readers.
+Customer Query 1: "I ordered a phone last week. When will it arrive?"
 
- 2. Technique: Comparative Prompting
-Prompt Example:
+Chatbot Response: "Could you please provide your order number so I can check the status?"
 
-Compare the chatbot’s performance before and after using fine-tuned intent classification. Use metrics like accuracy, response time, and satisfaction rate.
+Customer Query 2 (after the order number is provided): "What should I do if the phone has a defect?"
 
-Purpose: Support claims with clear data comparisons.
+Chatbot Response: "Thank you for your order number. If your phone is defective, you can follow these steps for returns or repairs."
 
-## Experiment Workflow Summary
+Customer Query 3 (follow-up after troubleshooting step): "It still doesn't work. What should I do next?"
 
-1. Stage	Prompt Type	Purpose
-2. Scenario Design	Role, Few-shot	Generate synthetic customer conversations
-3. Model Training	Chain-of-Thought, Instruction	Improve flow and intent handling
-4. Evaluation	Zero-shot, Reflexive	Test generalization and improve responses
-5. Report Generation	Persona, Comparative	Summarize and present findings effectively
+Chatbot Response: "I see that the troubleshooting steps didn’t work. Let me escalate this issue to our support team for further assistance."
 
- ## Final Report Structure (Suggested)
-1. Introduction
-
-2. Aim, background, chatbot purpose
-
-3. Prompt Design
-
-4. Types of prompts used and their roles
-
-5. Data Collection
-
-6. Methods and sources
-
-7. Model Implementation
-
-8. Architecture, training methods, tools
-
-9. Evaluation Metrics
-
-10. Accuracy, F1-score, customer satisfaction
-
-11. Findings & Analysis
-
-12. Observations from prompt impact
-
-13. Conclusion & Recommendations
-
-14. Improvement areas and future work
-
+## Report:
+| **Prompt Technique**         | **Purpose**                                                                 | **Use Cases**                                                                                 | **Example**                                                                                                                                               | **Benefits**                                                                                  |
+|-----------------------------|------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------|
+| **Straightforward Prompts** | Provide quick, direct responses to user queries                             | - Order tracking<br>- Warranty questions<br>- Simple troubleshooting                          | **User**: "What is the return policy?"<br>**Chatbot**: "You can return most items within 30 days of delivery."                                             | - Fast response<br>- Easy to understand<br>- Ideal for FAQs                                   |
+| **Tabular Format Prompting**| Present structured information clearly in table form                        | - Feature comparisons<br>- Troubleshooting steps<br>- Delivery timelines                      | **User**: "Compare Model A and Model B." <br>**Chatbot**:<br> \| Feature \| Model A \| Model B \|<br>\| Battery \| 8 hrs \| 6 hrs \|                        | - Clear layout<br>- Helps decision-making<br>- Improves readability                          |
+| **Preceding Question Prompting** | Maintain context through multiple interactions                        | - Follow-up queries<br>- Issue escalation<br>- Context-based recommendations                  | **User**: "I ordered a phone."<br>**Chatbot**: "What's the order number?"<br>**User**: "12345"<br>**Chatbot**: "Order 12345 arrives tomorrow."              | - Personalized responses<br>- Seamless conversation<br>- Reduces user repetition             |
 
 ## Result:
 Thus the Prompts were exected succcessfully .
