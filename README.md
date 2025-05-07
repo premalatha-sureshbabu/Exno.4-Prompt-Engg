@@ -35,6 +35,7 @@ chatbot response:
 \| **Instagram**| 70,000 - 150,000  | 7 PM - 9 PM           | Ages 18-35          |
 
 
+
 Customer Query: "Can you give me the steps to optimize my post for engagement?"
 chatbot response:
 \| **Step** | **Action**                                               |
@@ -43,6 +44,7 @@ chatbot response:
 \| 2        | Include relevant hashtags to reach a wider audience.      |
 \| 3        | Post during peak engagement times based on your audience. |
 \| 4        | Engage with comments to keep the conversation going.      |
+
 
 
 ### 3. Preceding Question Prompting:
