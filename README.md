@@ -75,14 +75,18 @@ Chatbot Response: "Thank you for your order number. If your phone is defective, 
 Customer Query 3 (follow-up after troubleshooting step): "It still doesn't work. What should I do next?"
 
 Chatbot Response: "I see that the troubleshooting steps didn’t work. Let me escalate this issue to our support team for further assistance."
+### Conclusion:
+✅ Successfully implemented diverse prompting techniques to handle scenario-based queries in a retail chatbot.
 
-## Report:
-| **Prompt Technique**         | **Purpose**                                                                 | **Use Cases**                                                                                 | **Example**                                                                                                                                               | **Benefits**                                                                                  |
-|-----------------------------|------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------|
-| **Straightforward Prompts** | Provide quick, direct responses to user queries                             | - Order tracking<br>- Warranty questions<br>- Simple troubleshooting                          | **User**: "What is the return policy?"<br>**Chatbot**: "You can return most items within 30 days of delivery."                                             | - Fast response<br>- Easy to understand<br>- Ideal for FAQs                                   |
-| **Tabular Format Prompting**| Present structured information clearly in table form                        | - Feature comparisons<br>- Troubleshooting steps<br>- Delivery timelines                      | **User**: "Compare Model A and Model B." <br>**Chatbot**:<br> \| Feature \| Model A \| Model B \|<br>\| Battery \| 8 hrs \| 6 hrs \|                        | - Clear layout<br>- Helps decision-making<br>- Improves readability                          |
-| **Preceding Question Prompting** | Maintain context through multiple interactions                        | - Follow-up queries<br>- Issue escalation<br>- Context-based recommendations                  | **User**: "I ordered a phone."<br>**Chatbot**: "What's the order number?"<br>**User**: "12345"<br>**Chatbot**: "Order 12345 arrives tomorrow."              | - Personalized responses<br>- Seamless conversation<br>- Reduces user repetition             |
+✅ Straightforward Prompts enabled quick and efficient responses to common customer questions.
 
+✅ Tabular Format Prompting helped in presenting structured data like product comparisons and troubleshooting steps clearly.
+
+✅ Preceding Question Prompting allowed the chatbot to maintain context across multiple customer interactions, improving the flow of conversation.
+
+✅ The experiment demonstrated how prompt engineering can enhance user experience and support quality in AI-powered systems.
+
+✅ Overall, the prompts worked effectively, showcasing the potential of intelligent, responsive, and context-aware AI communication in customer service.
 ## Result:
 Thus the Prompts were exected succcessfully .
 
