@@ -9,84 +9,62 @@ Scenario-Based Report Development Utilizing Diverse Prompting Techniques
 The goal of this experiment is to design and develop an AI-powered chatbot that can handle customer inquiries, provide support, and improve customer experience in a retail environment. Create prompts using various AI prompting techniques to guide your experiment, data collection, analysis, and report creation
 
 ### Prompts:
-### 1. Straightforward Prompts:
-These are simple, direct queries that help the chatbot handle common customer requests efficiently.
-
-Scenario: A customer asks for product troubleshooting or order status.
+### 1. Straightforward Prompt:
+For handling common customer inquiries, a straightforward approach works well, such as responding to queries about post content, hashtags, or account-related issues.
 
 Example Prompts and Responses:
 
-Customer Query 1: "What do I do if my laptop isn’t turning on?"
+Customer Query 1: "How can I delete a post?"
 
-Chatbot Response:
+Chatbot Response: "To delete a post, go to your profile, select the post, and click the three dots in the corner. From there, select 'Delete.' Let me know if you need further assistance."
 
-"First, make sure your laptop is plugged in and the power button is working. If it's still not turning on, try holding the power button for 10 seconds to reset it. Let me know if that works."
+Customer Query 2: "What is the best time to post?"
 
-Customer Query 2: "Where is my order?"
-
-Chatbot Response:
-
-"Could you please provide your order number so I can check the status for you?"
+Chatbot Response: "The best time to post depends on your audience, but generally, it's between 9 AM and 12 PM, and 7 PM to 9 PM, as that's when most people are online."
 
 ### 2. Tabular Format Prompting:
-This technique is helpful when the chatbot needs to present structured data or comparisons in an easy-to-read format, like troubleshooting steps, order status, or product comparisons.
-
-Scenario: A customer asks about product features or compares multiple models.
+For comparing social media platforms, trends, or analyzing post performance, tabular format is a great way to present structured data.
 
 Example Prompts and Responses:
 
-Customer Query: "Can you show me a comparison of the two models?"
+Customer Query: "Can you compare the post reach between Facebook and Instagram?"
+chatbot response:
+\| **Platform** | **Average Reach** | **Best Posting Time** | **Target Audience** |
+\|--------------|-------------------|-----------------------|---------------------|
+\| **Facebook** | 50,000 - 100,000  | 9 AM - 12 PM          | Ages 25-40          |
+\| **Instagram**| 70,000 - 150,000  | 7 PM - 9 PM           | Ages 18-35          |
 
-Chatbot Response:
 
-"Sure, here's a table comparing the two models for you:"
-| **Feature**      | **Model A**        | **Model B**        |
-|------------------|--------------------|--------------------|
-| **Screen Size**  | 15.6 inches        | 14 inches          |
-| **Processor**    | Intel i7           | Intel i5           |
-| **Battery Life** | 8 hours            | 6 hours            |
-| **Weight**       | 2.5 kg             | 2.0 kg             |
+Customer Query: "Can you give me the steps to optimize my post for engagement?"
+chatbot response:
+\| **Step** | **Action**                                               |
+\|----------|----------------------------------------------------------|
+\| 1        | Use high-quality images or videos to grab attention.      |
+\| 2        | Include relevant hashtags to reach a wider audience.      |
+\| 3        | Post during peak engagement times based on your audience. |
+\| 4        | Engage with comments to keep the conversation going.      |
 
-Chatbot Response:
-
-"Here's a table with steps to troubleshoot your issue:"
-| **Step** | **Action**                                               |
-|----------|----------------------------------------------------------|
-| 1        | Ensure the device is plugged in and the power button works. |
-| 2        | Check for any visible damage to cables or power ports.     |
-| 3        | Hold the power button for 10 seconds to reset the device.  |
-| 4        | If the issue persists, contact customer support.           |
 
 ### 3. Preceding Question Prompting:
-This technique involves using context from previous customer queries to ensure that the chatbot gives relevant and continuous support.
-
-Scenario: The chatbot needs to maintain context across different queries or follow-up questions.
+This technique allows the chatbot to maintain context, particularly in social media settings where users may have multiple interactions.
 
 Example Prompts and Responses:
 
-Customer Query 1: "I ordered a phone last week. When will it arrive?"
+Customer Query 1: "When is the best time to post on Facebook?"
 
-Chatbot Response: "Could you please provide your order number so I can check the status?"
+Chatbot Response: "The best time is typically 9 AM to 12 PM for maximum engagement."
 
-Customer Query 2 (after the order number is provided): "What should I do if the phone has a defect?"
+Customer Query 2 (Follow-up after providing information on Facebook): "How about Instagram?"
 
-Chatbot Response: "Thank you for your order number. If your phone is defective, you can follow these steps for returns or repairs."
-
-Customer Query 3 (follow-up after troubleshooting step): "It still doesn't work. What should I do next?"
-
-Chatbot Response: "I see that the troubleshooting steps didn’t work. Let me escalate this issue to our support team for further assistance."
+Chatbot Response: "For Instagram, the best time is 7 PM to 9 PM. I can also help you with hashtags or content optimization if needed."
 ### Conclusion:
-✅ Successfully implemented diverse prompting techniques to handle scenario-based queries in a retail chatbot.
+This experiment successfully demonstrated the application of diverse prompting techniques within a social media management chatbot to improve the customer experience. The key techniques employed include:
 
-✅ Straightforward Prompts enabled quick and efficient responses to common customer questions.
+Straightforward Prompts: Efficient for answering common customer queries quickly.
 
-✅ Tabular Format Prompting helped in presenting structured data like product comparisons and troubleshooting steps clearly.
+Tabular Format Prompting: Ideal for presenting structured information such as platform comparisons, post optimization steps, and troubleshooting procedures.
 
-✅ Preceding Question Prompting allowed the chatbot to maintain context across multiple customer interactions, improving the flow of conversation.
-
-✅ The experiment demonstrated how prompt engineering can enhance user experience and support quality in AI-powered systems.
-
-✅ Overall, the prompts worked effectively, showcasing the potential of intelligent, responsive, and context-aware AI communication in customer service.
+Preceding Question Prompting: Effective for ensuring continuity and relevance in chatbot interactions across multiple queries, enhancing contextual understanding.
 ## Result:
 Thus the Prompts were exected succcessfully .
 
