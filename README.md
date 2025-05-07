@@ -67,11 +67,11 @@ Chatbot Response: "For Instagram, the best time is 7 PM to 9 PM. I can also help
 ### Conclusion:
 This experiment successfully demonstrated the application of diverse prompting techniques within a social media management chatbot to improve the customer experience. The key techniques employed include:
 
-Straightforward Prompts: Efficient for answering common customer queries quickly.
+->Straightforward Prompts: Efficient for answering common customer queries quickly.
 
-Tabular Format Prompting: Ideal for presenting structured information such as platform comparisons, post optimization steps, and troubleshooting procedures.
+->Tabular Format Prompting: Ideal for presenting structured information such as platform comparisons, post optimization steps, and troubleshooting procedures.
 
-Preceding Question Prompting: Effective for ensuring continuity and relevance in chatbot interactions across multiple queries, enhancing contextual understanding.
+->Preceding Question Prompting: Effective for ensuring continuity and relevance in chatbot interactions across multiple queries, enhancing contextual understanding.
 ## Result:
 Thus the Prompts were exected succcessfully .
 
