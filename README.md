@@ -28,7 +28,9 @@ For comparing social media platforms, trends, or analyzing post performance, tab
 Example Prompts and Responses:
 
 Customer Query: "Can you compare the post reach between Facebook and Instagram?"
+
 chatbot response:
+
 \| **Platform** | **Average Reach** | **Best Posting Time** | **Target Audience** |
 \|--------------|-------------------|-----------------------|---------------------|
 \| **Facebook** | 50,000 - 100,000  | 9 AM - 12 PM          | Ages 25-40          |
@@ -37,7 +39,9 @@ chatbot response:
 
 
 Customer Query: "Can you give me the steps to optimize my post for engagement?"
+
 chatbot response:
+
 \| **Step** | **Action**                                               |
 \|----------|----------------------------------------------------------|
 \| 1        | Use high-quality images or videos to grab attention.      |
