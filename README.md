@@ -31,23 +31,24 @@ Customer Query: "Can you compare the post reach between Facebook and Instagram?"
 
 chatbot response:
 
-\| **Platform** | **Average Reach** | **Best Posting Time** | **Target Audience** |
-\|--------------|-------------------|-----------------------|---------------------|
-\| **Facebook** | 50,000 - 100,000  | 9 AM - 12 PM          | Ages 25-40          |
-\| **Instagram**| 70,000 - 150,000  | 7 PM - 9 PM           | Ages 18-35          |
-
+| **Platform** | **Average Reach** | **Best Posting Time** | **Target Audience** |
+|--------------|-------------------|-----------------------|---------------------|
+| **Facebook** | 50,000 - 100,000  | 9 AM - 12 PM          | Ages 25-40          |
+| **Instagram**| 70,000 - 150,000  | 7 PM - 9 PM           | Ages 18-35          |
 
 
 Customer Query: "Can you give me the steps to optimize my post for engagement?"
 
 chatbot response:
 
-\| **Step** | **Action**                                               |
-\|----------|----------------------------------------------------------|
-\| 1        | Use high-quality images or videos to grab attention.      |
-\| 2        | Include relevant hashtags to reach a wider audience.      |
-\| 3        | Post during peak engagement times based on your audience. |
-\| 4        | Engage with comments to keep the conversation going.      |
+| **Step** | **Action**                                               |
+|----------|----------------------------------------------------------|
+| 1        | Use high-quality images or videos to grab attention.      |
+| 2        | Include relevant hashtags to reach a wider audience.      |
+| 3        | Post during peak engagement times based on your audience. |
+| 4        | Engage with comments to keep the conversation going.      |
+
+
 
 
 
