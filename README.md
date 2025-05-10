@@ -141,6 +141,7 @@ Reasoning: Words like “impressed” and “looking forward” indicate a stron
 
 
 Evaluation:
+
 Accuracy: Both models accurately assessed the sentiment and predicted engagement.
 
 Coherence: Clear, logical analysis in both responses.
@@ -172,6 +173,7 @@ Conversion Potential: Moderate to high — the message shows strong interest, an
 
 
 Evaluation:
+
 Insightfulness: Claude gave a slightly more layered analysis of tone.
 
 Tone & Language: Both platforms accurately identified informal vs. formal contrasts.
@@ -204,6 +206,7 @@ Reasoning: Product values align with customer values, often a key factor in purc
 
 
 Evaluation:
+
 Empathy: Claude’s output was more emotionally intelligent and value-aligned.
 
 Engagement Prediction: Both platforms were aligned in identifying high conversion potential.
