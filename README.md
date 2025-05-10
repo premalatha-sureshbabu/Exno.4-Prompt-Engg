@@ -142,13 +142,13 @@ Reasoning: Words like “impressed” and “looking forward” indicate a stron
 
 Evaluation:
 
-Accuracy: Both models accurately assessed the sentiment and predicted engagement.
+->Accuracy: Both models accurately assessed the sentiment and predicted engagement.
 
-Coherence: Clear, logical analysis in both responses.
+->Coherence: Clear, logical analysis in both responses.
 
-Relevance: Focused on e-commerce-specific cues like browsing behavior and intent to buy.
+->Relevance: Focused on e-commerce-specific cues like browsing behavior and intent to buy.
 
-Speed: Both responses were timely and efficient.
+->Speed: Both responses were timely and efficient.
 
 ### 2. Comparative Analysis Prompt
 Objective: To compare a customer inquiry with a typical product description, identifying differences in tone, clarity, and persuasive value.
@@ -174,13 +174,13 @@ Conversion Potential: Moderate to high — the message shows strong interest, an
 
 Evaluation:
 
-Insightfulness: Claude gave a slightly more layered analysis of tone.
+->Insightfulness: Claude gave a slightly more layered analysis of tone.
 
-Tone & Language: Both platforms accurately identified informal vs. formal contrasts.
+->Tone & Language: Both platforms accurately identified informal vs. formal contrasts.
 
-Conversion Prediction: Both identified potential for conversion with appropriate follow-up.
+->Conversion Prediction: Both identified potential for conversion with appropriate follow-up.
 
-Speed: Efficient responses from both.
+->Speed: Efficient responses from both.
 
 ### 3. Experiential Perspective Prompt
 Objective: To simulate a customer's emotional experience while browsing the product listing and predict their level of engagement or conversion.
@@ -207,13 +207,13 @@ Reasoning: Product values align with customer values, often a key factor in purc
 
 Evaluation:
 
-Empathy: Claude’s output was more emotionally intelligent and value-aligned.
+->Empathy: Claude’s output was more emotionally intelligent and value-aligned.
 
-Engagement Prediction: Both platforms were aligned in identifying high conversion potential.
+->Engagement Prediction: Both platforms were aligned in identifying high conversion potential.
 
-Relevance: Excellent relevance to e-commerce settings where ethical products matter.
+->Relevance: Excellent relevance to e-commerce settings where ethical products matter.
 
-Speed: Fast and clear responses.
+->Speed: Fast and clear responses.
 
 ### RESULT: Prompt Performance Summary
 | Prompt Type                         | Best Performing Platform | Summary of Findings                                                   |
@@ -224,18 +224,18 @@ Speed: Fast and clear responses.
 
 
 ###  INSIGHTS
-ChatGPT excelled at comparing structured communication and clarifying tone and language contrasts.
+->ChatGPT excelled at comparing structured communication and clarifying tone and language contrasts.
 
-Claude stood out in human-centered prompts, showing stronger emotional depth in experiential simulations.
+->Claude stood out in human-centered prompts, showing stronger emotional depth in experiential simulations.
 
-Both platforms reliably handled straightforward sentiment prediction and engagement forecasting within an e-commerce framework.
+->Both platforms reliably handled straightforward sentiment prediction and engagement forecasting within an e-commerce framework.
 
 ###  CONCLUSION
-Preceding Question Prompting results show both platforms handle customer sentiment and buying intent well in e-commerce.
+->Preceding Question Prompting results show both platforms handle customer sentiment and buying intent well in e-commerce.
 
-Comparative Analysis Prompt shows ChatGPT is strong at dissecting tone and structure in consumer queries vs. product copy.
+->Comparative Analysis Prompt shows ChatGPT is strong at dissecting tone and structure in consumer queries vs. product copy.
 
-Experiential Perspective Prompt highlights Claude’s superior ability to simulate emotional engagement with product listings.
+->Experiential Perspective Prompt highlights Claude’s superior ability to simulate emotional engagement with product listings.
 
 ## Result:
 Thus the Prompts were exected succcessfully .
